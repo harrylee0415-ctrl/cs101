@@ -70,7 +70,7 @@ void print_lotto_row(FILE* tmpfp, int n) {
         } 
     }
     
-    for(int i = 0; i < MAX_LOTTO_NUM-1; ++i) {
+    for(int i = 0; i <= MAX_LOTTO_NUM-1; ++i) {
         for(int j = 0; j < i; ++j) {
             if (numset[j] > numset[i]) {
                 int temp = numset[j];
